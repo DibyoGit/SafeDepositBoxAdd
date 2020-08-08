@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.ofg.deposits.products.safetydepositbox.service.DepositBoxService;
 
 @Validated
 @RestController
@@ -17,8 +16,8 @@ public class SafetyDepositBoxController {
 	@Autowired
 	RestTemplate restTemplate;
 
-	@Autowired
-	DepositBoxService depositBoxService;
+	//@Autowired
+	//DepositBoxService depositBoxService;
 
 	@GetMapping("testspring")
 	public String getOwnerDetails() {
