@@ -19,7 +19,7 @@ public class SafetyDepositBoxController {
 	//@Autowired
 	//DepositBoxService depositBoxService;
 
-	@GetMapping("testspring")
+	@GetMapping("/testspring")
 	public String getOwnerDetails() {
 
 		return "simple Spring controller call works";
